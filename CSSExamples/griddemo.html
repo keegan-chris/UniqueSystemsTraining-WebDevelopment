@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Demo Page</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 20% 30% 50%;
+            grid-auto-flow: row;
+            /* grid-template-columns: 1fr 2fr 3fr; */
+            gap: 2em;
+        }
+        .container > div {
+            padding: 20px;
+            border: 2px solid yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum modi inventore voluptas ab necessitatibus maxime, tempore aperiam odit natus nostrum. Doloribus nostrum, quae dicta odit deserunt animi enim minus quis?</div>
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum modi inventore voluptas ab necessitatibus maxime, tempore aperiam odit natus nostrum. Doloribus nostrum, quae dicta odit deserunt animi enim minus quis?</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maiores beatae, quo id nemo voluptates quisquam, tempora similique consequuntur doloribus odio voluptas excepturi natus quis sapiente officia et impedit laudantium.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ullam numquam error nihil veniam in a sunt corrupti repellat, eveniet ducimus quia? Quidem aliquid sit molestias dolorum ipsum magni dicta.</div>
+    </div>        
+</body>
+</html>

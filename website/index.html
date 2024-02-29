@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pet Store - Home</title>
+</head>
+<link rel="stylesheet" href="slideshow.css">
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="navbar">
+        <div class="flex-me spread-me center-vert">
+            <div class="logo">
+                <a href="index.html">The Pet Store</a>
+            </div>
+            <div class="links">
+                <a href="cats.html">Cats</a>
+                <a href="dogs.html">Dogs</a>
+                <a href="request.html">Request Form</a>
+            </div>
+        </div>        
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img/img1.jpg" style="width:100%">
+            <div class="text caption-text">Welcome to The Pet Store</div>
+        </div>  
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img/img2.jpg" style="width:100%">
+            <div class="text caption-text">Where your wildest pet dreams can come true.</div>
+        </div>  
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img/img3.jpg" style="width:100%">
+            <div class="text caption-text">Please take some time and browse our pets.</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> 
+    <script src="slideshow.js"></script>
+</body>
+<footer>
+    The Pet Store
+</footer>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <style>
+        table {
+            border: 5px solid red;
+            width: 100%;
+            height: 100vh;
+            border-collapse: collapse;
+        }
+        td {
+            border: 5px solid red;
+        }
+        #firstrow {
+            height: 100px;
+            background-color: aqua;
+        }
+        #lastrow {
+            height: 100px;
+            background-color: bisque;
+        }
+        .linkbutton {
+            text-decoration: none;
+            display: inline;
+        }
+        .navitem {
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            background-color: chartreuse;
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr id="firstrow">
+            <td colspan="3">
+                <ul id="navbar">
+                    <li class="navitem"><a class="linkbutton" href="home.html">Home</a></li>
+                    <li class="navitem"><a class="linkbutton" href="about.html">About</a></li>
+                    <li class="navitem"><a class="linkbutton" href="contact.html">Contact</a></li>
+                    <li class="navitem"><a class="linkbutton" href="feedback.html">Feedback</a></li>
+                    <li class="navitem"><a class="linkbutton" href="gallery.html">Gallery</a></li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur asperiores maxime reprehenderit sequi quod! Velit voluptatibus vero accusantium odio numquam dolore sequi ab? Voluptatum quam similique commodi odit consequuntur veniam doloribus at mollitia dolorum ab cum unde nam odio impedit quae minus rerum suscipit asperiores aliquid natus, laudantium dolore quod praesentium. Tempora atque modi, impedit minima dicta animi quod aspernatur deleniti dolores autem fugit vel est nobis vero hic eaque, possimus, voluptates perferendis! Error dolores quae, ratione officia debitis aliquam eos commodi voluptatem libero delectus atque, saepe repellendus sint esse nemo quidem eum minus aspernatur voluptates deleniti, unde assumenda! Quidem!</td>
+            <td style="text-align: center;"><img src="staffing-2.jpg" alt=""></td>
+            <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia ad minima fuga consectetur hic est, alias earum quos ipsum sit ab mollitia id impedit voluptatibus quas illo fugiat non a. Totam aliquam iste velit in qui voluptates voluptatum commodi expedita! Consectetur id aliquam veritatis. Labore eaque dolorum sapiente atque non sit, quibusdam, illum harum facere repellendus fugiat enim, mollitia assumenda perferendis ipsum deserunt cupiditate eius similique nulla. Illo perferendis accusantium est unde at tempora voluptate natus maiores quibusdam, sunt amet odit possimus placeat laudantium earum ipsum cupiditate! Blanditiis eaque, perferendis et harum facilis modi voluptas eveniet laborum recusandae, soluta consectetur!</td>
+        </tr>
+        <tr id="lastrow">
+            <td colspan="3" id="">Footer</td>
+        </tr>
+    </table>
+</body>
+</html>

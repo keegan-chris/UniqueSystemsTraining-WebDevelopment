@@ -1,0 +1,84 @@
+* {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+body {
+    background-color:blanchedalmond;
+}
+
+#p1 {
+    font-size: 40px;
+    color: coral;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: 5px 5px 8px rgb(182, 182, 164);
+    width: 50%;
+    margin: auto;
+    background-color: rgb(239, 240, 185);
+    border: 3px solid rgb(156, 156, 60);
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+#navbar {
+    margin-top: 20px;
+    background-color: rgb(187, 187, 187);
+    text-align: right;
+    padding: 25px 10px;
+}
+a {
+    color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    background-color: rgb(72, 106, 136);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px rgb(95, 95, 95);
+}
+#main {
+    width: 80%;
+    font-size: 1.4em;
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+#gmap {
+    width: 50%;
+    background-color: azure;
+    float: left;
+    text-align: center;
+}
+address{
+    width: 50%;
+    background-color: bisque;
+    float: right;
+    height: 450px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#video {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+input, label {
+    font-size: 1.2em;
+    margin: 5px;
+}
+caption {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: darkkhaki;
+    color:darkolivegreen;
+    margin: 10px 0;
+    padding: 5px 0;
+}
+tr:nth-child(even) {
+    background-color: rgb(202, 202, 202);
+}
+ul>li {
+    display: inline;
+}

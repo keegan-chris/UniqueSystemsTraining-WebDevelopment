@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pet Store - Request Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="flex-me spread-me center-vert">
+            <div class="logo">
+                <a href="index.html">The Pet Store</a>
+            </div>
+            <div class="links">
+                <a href="cats.html">Cats</a>
+                <a href="dogs.html">Dogs</a>
+                <a href="request.html">Request Form</a>
+            </div>
+        </div>             
+    </div>
+    <div class="form-container">
+        <form>
+            <table align="center">
+                <caption>Which Pet Would You Like To Request?</caption>
+                <tr>
+                    <td>
+                        <label for="name">Name</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="desiredPet">Pet</label>
+                    </td>
+                    <td>
+                        <select name="desiredPet" id="desiredPet">
+                            <option value="clover">Clover</option>
+                            <option value="dusty">Dusty</option>
+                            <option value="felix">Felix</option>
+                            <option value="rick">Rick</option>
+                            <option value="beau">Beau</option>
+                            <option value="nigel">Nigel</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="text-align: right;">
+                        <button class="submit-btn" type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div> 
+</body>
+<footer>
+    The Pet Store
+</footer>
+</html>

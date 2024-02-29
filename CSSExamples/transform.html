@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Demo Page</title>
+    <style>
+        #d1:hover {
+            /* transform: translate(40px, 50px); */
+            /* transform: rotate(45deg); */
+            /* transform: scale(1.2,1.2); */
+            transform: skew(25deg, 30deg);
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            background-color: lavender;
+        }
+        .d1 {
+            background-color: blue;
+            transition-property: background-color font-size color;
+            transition-duration: 3s;
+            font-size: 1em;             
+            color: white;           
+        }
+        .d1:hover {
+            background-color: aqua;
+            font-size: 2em;
+            color: black;
+        }
+        .m1 {
+            clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium, sequi explicabo, mollitia rerum possimus dolorem saepe, ipsam distinctio illum non alias vero unde culpa itaque temporibus dicta? Similique, ducimus.
+    </div>
+    <div class="d1">
+        This is sample text.
+    </div>
+    <div class="m1">
+        <img src="staffing-2.jpg" alt="">
+    </div>
+</body>
+</html>

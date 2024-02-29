@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../bootstrapexamples/bootstrap.min.css">
+</head>
+<body>
+    <p id="p1">Unique System Skills</p>
+    <div id="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="feedback.html">Feedback</a>        
+    </div>
+    <div>
+        <form>            
+			<table align="center">
+                <caption id="captionTest">Feedback Form</caption>
+				<tr>
+					<td><label for="nameInput">Name</label></td>
+					<td><input type="text" id="nameInput" required> *</td>
+				</tr>
+				<tr>
+					<td><label for="ageInput">Age</label></td>
+					<td><input type="number" id="ageInput" min="0" max="100"></td>
+				</tr>
+				<tr>
+					<td><label for="addressInput">Address</label></td>
+					<td><input type="text" id="addressInput" size="50" placeholder="Please enter your address"></td>
+				</tr>	
+				<tr>
+					<td><label for="birthdateInput">Birthday</label></td>
+					<td><input type="date" id="birthdateInput" size="15"></td>
+				</tr>
+				<tr>
+					<td><label for="emailInput">Email</label></td>
+					<td><input type="email" id="emailInput"></td>
+				</tr>
+				<tr>
+					<td><input type="submit"></td>
+					<td><input type="reset"></td>
+				</tr>				
+			</table>
+		</form>
+    </div>
+</body>
+</html>
