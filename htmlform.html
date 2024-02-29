@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>First HTML Form</title>
+		<style>
+			table {
+				width: 100%;
+				border: 10px solid brown;
+			}
+			input[type="text"], 
+			input[type="password"], 
+			input[type="date"], 
+			input[type="radio"], 
+			input[type="checkbox"],
+			input[type="number"], 
+			label, 
+			select {
+				font-size: 25px;
+				font-family: arial;
+			}
+			td {
+				padding: 5px;
+			}
+		</style>
+	</head>	
+	<body>
+		<form>
+			<table>		
+				<tr>
+					<td><label for="nameInput">Name</label></td>
+					<td><input type="text" id="nameInput" required> *</td>
+				</tr>
+				<tr>
+					<td><label for="ageInput">Age</label></td>
+					<td><input type="number" id="ageInput" min="0" max="100"></td>
+				</tr>
+				<tr>
+					<td><label for="addressInput">Address</label></td>
+					<td><input type="text" id="addressInput" size="50" placeholder="Please enter your address"></td>
+				</tr>	
+				<tr>
+					<td><label for="countryInput">Country</label></td>
+					<td>
+						<select id="countryInput">
+							<option value="" selected="selected">Select Country</option> 
+							<option value="Afghanistan">Afghanistan</option> 
+							<option value="Albania">Albania</option> 
+							<option value="Algeria">Algeria</option> 
+							<option value="American Samoa">American Samoa</option> 
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="passwordInput">Password</label></td>
+					<td><input type="password" id="passwordInput" size="15"></td>
+				</tr>
+				<tr>
+					<td><label for="birthdateInput">Birthday</label></td>
+					<td><input type="date" id="birthdateInput" size="15"></td>
+				</tr>
+				<tr>
+					<td><label for="qualificationInput">Qualification</label></td>
+					<td>
+						<input type="radio" name="qual" id="qual1"><label for="qual1">Post Graduate</label>
+						<input type="radio" name="qual" id="qual2"><label for="qual2">Graduate</label>
+						<input type="radio" name="qual" id="qual3"><label for="qual3">Under Graduate</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="languageInput">Languages Known</label></td>
+					<td>
+						<input type="checkbox" name="lang" id="lang1"><label for="lang1">English</label>
+						<input type="checkbox" name="lang" id="lang2"><label for="lang2">French</label>
+						<input type="checkbox" name="lang" id="lang3"><label for="lang3">German</label>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="emailInput">Email</label></td>
+					<td><input type="email" id="emailInput"></td>
+				</tr>
+				<tr>
+					<td><label for="imageInput">Upload Photo</label></td>
+					<td><input type="file" id="imageInput" multiple></td>
+				</tr>
+				<tr>
+					<td><label for="valuesInput">Values</label></td>
+					<td><input type="range" min="1" max="100" id="valuesInput"></td>
+				</tr>
+				<tr>
+					<td><input type="image" src="laptop1.jpg" alt="Laptop image"></td>
+				</tr>
+				<tr>
+					<td><input type="submit"></td>
+					<td><input type="reset"></td>
+				</tr>				
+			</table>
+		</form>
+	</body>
+</html>
