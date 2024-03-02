@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url('back.png');
+            background-size: cover;
+        }
+        .title {
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        input {
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+        }
+        .input-sizing {
+            padding: 10px;
+            width: 400px;
+            margin-bottom: 30px;
+        }
+        button {
+            width: 430px;
+            height: 50px;
+            background-color:orange;
+            color: white;
+            margin-top: 30px;
+            font-size: 1.2em;
+        }
+        button:hover {
+            background-color:#03cafc;
+        }
+        .login {
+            width: 500px;
+            background-color: rgba(0,0,0,.5);
+            padding: 40px;
+            margin: auto;
+            margin-top: 10%;
+        }
+        a {
+            color: white;
+        }
+        form{
+            text-align: center;
+        }
+        ::placeholder {
+            color:grey
+        }
+    </style>
+</head>
+<body>
+    <div class="login">        
+        <h3 class="title">Login Window</h3>
+        <form action="">
+            <input class="input-sizing" type="email" placeholder="Your Email Address" required>
+            <input class="input-sizing" type="password" name="" id="" placeholder="Your Password" required><br>
+            <div style="text-align: left; padding-left: 37px;">
+                <input type="checkbox" name="" id=""> <span style="color: white;">Agree With</span> <a href="">Terms & Conditions</a>
+            </div>            
+            <button>Login</button>          
+        </form>
+    </div>
+</body>
+</html>
